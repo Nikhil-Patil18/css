@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .main{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: blue;
+    }
+
+    @media screen and (max-width:375px){
+
+        .main {
+            background-color: red;
+            color: beige;
+        }
+    }
+
+    @media screen and (min-width:375px) and (max-width:425px)
+    {
+        .main{
+            background-color: green;
+            color: beige;
+        }
+    }
+
+</style>
+<body>
+    
+
+    <div class="main"> Hello.....
+    </div>
+</body>
+</html>

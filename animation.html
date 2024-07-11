@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+
+<style>
+
+*{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        nav{
+            height: 10vh;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 2px 2px 3px gray;
+        }
+        .left{
+ 
+             height: 200px;
+             width: 200px;
+             display: flex;
+             justify-content:center;
+             align-items: center;
+             font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+             font-size: 30px;
+             color: black;
+
+        }
+       
+        .center {
+             
+             height: 60px;
+             width: 800px;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             color: brown;
+             font-size: 15px;
+          
+
+        }
+         .center ul{
+            padding: 5px;
+            display: flex;
+             justify-content: center;
+             align-items: center;
+            list-style: none;
+            gap: 15px;
+            border-radius: 5px;
+            font-family:'Times New Roman', Times, serif ;
+             
+         }
+         .center ul li:hover{
+            background-color: black;
+            color: white;
+            border-radius: 14px;
+   
+         }
+        .right{
+               
+             height: 60px;
+             width: 500px;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+            
+            
+        }
+        .right ul{
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            list-style: none;
+            gap: 15px;
+            color: rgba(167, 118, 118, 0.834);
+        }
+        .right ul li:hover{
+            background-color: black
+             
+   
+        }
+
+        #top, #center,#bottom,#bottom1 {
+            height: 100vh;
+            width: 100vw;
+        /*border: 1px solid red;*/
+        }
+
+        #top{
+            background: aqua url(/CSS/image/img1.jpg) fixed;
+          
+            /*background-image: url(/CSS/image/img1.jpg);*/
+            background-size: 100% 100%;
+           /* background-attachment: fixed;*/
+           
+        }
+        #center{
+            background: pink url(/CSS/image/img2.jpg) fixed;
+
+
+            /*background-image: url(/CSS/image/img2.jpg);*/
+            background-size: 100% 100%;
+            /*background-attachment: fixed;*/
+
+        }
+        #bottom{
+            background: red url(/CSS/image/img3.jpg) fixed;
+
+
+           /* background-image: url(/CSS/image/img3.jpg);*/
+            background-size: 100% 100%;
+            /*background-attachment: fixed;*/
+        }
+        #bottom1{
+            background: red url(/CSS/image/img4.jpeg) fixed;
+
+
+           /* background-image: url(/CSS/image/img3.jpg);*/
+            background-size: 100% 100%;
+            /*background-attachment: fixed;*/
+        }
+
+
+</style>
+
+</head>
+<body>
+    <nav>
+        <div class="left"> Art Gallery</div>
+
+
+        <div class="center">
+            <ul>
+                <li>Home  <i class="fa-solid fa-house"> </i></li>
+                <li>Search <i class="fa-solid fa-magnifying-glass"></i> </li>
+                <li>About us <i class="fa-regular fa-address-card"></i> </li>
+                <li>Photos <i class="fa-regular fa-image"></i> </li>
+
+        </ul>
+    </div>
+        <div class="right"> 
+            <ul>
+                <li> <i class="fa-brands fa-instagram fa-2x"></i></li>
+                <li> <i class="fa-brands fa-facebook fa-2x"></i></li>
+                <li> <i class="fa-brands fa-youtube fa-2x"></i> </li>
+                <li> <i class="fa-brands fa-twitter fa-2x"></i></li>
+            </ul>
+
+        </nav> 
+
+        <div>
+
+            <img src="https://contentadmin.vanartgallery.bc.ca/wp-content/uploads/2023/06/MAG_ConceptionsofWhite_036_1280px.jpg"  height="600" width="1250" alt="img">
+        </div>
+        <div id="top"></div>
+        <div id="center"></div>
+        <div id="bottom"></div>
+        <div id="bottom1"></div>
+        </div>
+</body>
+</html>
